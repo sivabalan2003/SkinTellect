@@ -11,7 +11,7 @@ import cv2
 import pandas as pd
 from joblib import load
 
-df=pd.read_csv(r"dataset\updated_skincare_products.csv")
+df=pd.read_csv(r"dataset/updated_skincare_products.csv")
 
 app = Flask(__name__)
 app.secret_key = '4545'
